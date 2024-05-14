@@ -113,13 +113,14 @@ textarea.form-input {
     transition: transform 0.5s ease 0s;
     content: "";
     position:absolute;
-    top: 4px;
-    left: 4px;
+/*     top: 4px;
+    left: 4px; */
     width: 16px;
     height: 16px;
     background-color: #7a956b;
     border-radius: 50%;
     transform: scale(0);
+    margin-left: 4px;
 }
 
 .options-label-span {
